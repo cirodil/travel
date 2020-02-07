@@ -415,8 +415,9 @@ body {
   margin: 0 auto;
 }
 
+/* header styles start */
+
 .header {
-  background-color: #ccc;
   position: fixed;
   top: 0;
   left: 0;
@@ -454,3 +455,13 @@ body {
 .header__link:hover, .header__link:focus, .header__link:active {
   opacity: .75;
 }
+
+/* header styles end */
+
+/* intro styles start */
+.intro {
+  height: 100vh;
+  background: url('../img/intro-bg.jpg') no-repeat center;
+  background-size: cover;
+}
+/* intro styles end */
