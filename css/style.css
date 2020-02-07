@@ -460,7 +460,7 @@ body {
 
 /* intro styles start */
 .intro {
-  height: 100vh;
+  min-height: 100vh;
   background: url('../img/intro-bg.jpg') no-repeat center;
   background-size: cover;
   padding-top: 263px;
@@ -489,7 +489,7 @@ body {
 
 .search-form__field {
   flex-basis: 297px;
-  background: transparent url('../img/svg/circle-ico.svg') no-repeat left top;
+  background: transparent url('../img/svg/circle-ico.svg') no-repeat left 6px;
   background-size: 20px;
   border: 0;
   border-bottom: 2px solid #BFC0C5;
@@ -509,6 +509,18 @@ body {
   color: #FFFFFF;
 }
 
+.search-form__submit {
+  padding: 15px 39px;
+  background: #1B7DFF;
+  border: 0;
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 24px;
+  text-transform: uppercase;
+}
 
+.search-form__submit:hover, .search-form__submit:focus, .search-form__submit:active {
+  background: #085ccc;
+}
 
 /* intro styles end */
