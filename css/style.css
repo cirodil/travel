@@ -630,4 +630,27 @@ img {
   background: url(../img/svg/arrow-ico.svg) no-repeat right center; 
 }
 /* benefits styles end */
+/* places styles start */
+
+.places__caption {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 36px;
+}
+
+.places__view-all {
+  font-size: 16px;
+  color: #006DFE;
+  text-decoration: none;
+  padding-right: 59px;
+  background: url(../img/svg/arrow-ico.svg) no-repeat right center;
+}
+
+.places__view-all:hover, .places__view-all:focus {
+  opacity: .65;
+}
+
+/* places styles end */
 
