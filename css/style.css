@@ -745,6 +745,10 @@ img {
   margin-bottom: 77px;
 }
 
+.tour__info {
+  padding-left: 47px;
+}
+
 .tour__title {
   font-weight: 500;
   font-size: 30px;
@@ -770,5 +774,14 @@ img {
 .tour__more:hover, .tour__more:focus {
   opacity: .65;
 }
+/* tours styles end */
 
-/* tours stules end */
+/* top styles start */
+.top {
+  margin-bottom: 86px;
+}
+
+.top__title {
+  margin-bottom: 54px;
+}
+/* top styles end */
