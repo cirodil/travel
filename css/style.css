@@ -796,6 +796,11 @@ img {
   margin-bottom: 45px;
 }
 
+.top__card {
+  display: flex;
+  flex-direction: column;
+}
+
 .top__card-stats {
   display: flex;
   flex-wrap: wrap;
@@ -843,6 +848,7 @@ img {
 }
 
 .top__card-more {
+  width: 118px;
   padding: 12px 19px;
   background: #1B7DFF;
   border: 0;
@@ -850,6 +856,7 @@ img {
   font-size: 16px;
   line-height: 19px;
   text-decoration: none;
+  margin: auto 0 0 0;
 }
 
 .top__card-more:hover, .top__card-more:active, .top__card-more:focus {
