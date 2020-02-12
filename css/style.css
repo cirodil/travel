@@ -793,6 +793,7 @@ img {
 
 .top__card-pic {
   position: relative;
+  margin-bottom: 45px;
 }
 
 .top__card-stats {
@@ -833,5 +834,25 @@ img {
   color: #FFFFFF;
   padding-right: 23px;
   background: url('../img/svg/comment-ico.svg') no-repeat right;
+}
+
+.top__card-desc {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 31px;
+}
+
+.top__card-more {
+  padding: 12px 19px;
+  background: #1B7DFF;
+  border: 0;
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+}
+
+.top__card-more:hover, .top__card-more:active, .top__card-more:focus {
+  background: #085ccc;
 }
 /* top styles end */
