@@ -454,6 +454,10 @@ img {
   width: 100%;
 }
 
+.header_active {
+  background: #0E1D28;
+}
+
 .header__wrapper {
   display: flex;
   flex-wrap: wrap;
