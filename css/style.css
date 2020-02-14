@@ -418,11 +418,13 @@ img {
 .wrapper {
   max-width: 1060px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .wrapper-full {
   max-width: 1262px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .section-title {
@@ -453,12 +455,12 @@ img {
   left: 0;
   width: 100%;
   transition: 0.2s linear;
+  padding-bottom: 20px;
+  z-index: 999;
 }
 
 .header_active {
   background: #0E1D28;
-  padding-bottom: 20px;
-  z-index: 5;
 }
 
 .header__wrapper {
@@ -526,7 +528,7 @@ img {
 }
 
 .search-form__field {
-  flex-basis: 297px;
+  width: 297px;
   background: transparent url('../img/svg/circle-ico.svg') no-repeat left 6px;
   background-size: 20px;
   border: 0;
@@ -680,7 +682,7 @@ img {
 }
 
 .places__card:hover .places__card-pic {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .places__card::after {
@@ -715,7 +717,6 @@ img {
 
 .places__card-pic {
   width: 100%;
-
   transition: .15s all;
 }
 
@@ -879,7 +880,7 @@ img {
 
 .videos__wrapper {
   position: relative;
-  width: 1440px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 
