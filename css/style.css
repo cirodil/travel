@@ -976,7 +976,7 @@ img {
   }
 
   .benefits__card {
-    
+    margin-bottom: 60px;
   }
 
   .search-form__field {
@@ -994,6 +994,14 @@ img {
 
   .benefits__wrap {
     box-shadow: none;
+  }
+
+  .places__card-size_lg {
+    grid-column: span 6;
+  }
+
+  .places__card-size_sm {
+    grid-column: span 6;
   }
 }
 
