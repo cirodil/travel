@@ -1108,6 +1108,19 @@ img {
     transform: translateY(-50%) rotate(-45deg);
   }
 
+  .intro {
+    padding-top: 150px;
+  }
+
+  .search-form__field {
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .benefits__card {
+    grid-column: span 3;
+  }
+
 }
 
 /* Media end */
