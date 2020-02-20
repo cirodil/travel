@@ -1170,6 +1170,10 @@ img {
     margin-bottom: 20px;
   }
 
+  .places__card-pic_size_lg, .places__card-pic_size_sm {
+    height: 230px;
+  }
+
 }
 
 @media screen and (max-width: 500px) {
